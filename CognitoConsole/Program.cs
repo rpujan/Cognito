@@ -3,6 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using Dapper;
+using static ScalerValue;
 
 public class Person
 {
@@ -27,7 +28,7 @@ class Program
         
         // Console.WriteLine($"Total products: {count}");
 
-        int result = ScalerValue.Sum(2, 3);
+        int result = Sum(2, 3);
 
         Console.WriteLine(result);
        
