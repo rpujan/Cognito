@@ -7,6 +7,7 @@ import { getCountries } from './data/countries.js'
 const url = 'https://restcountries.com/v3.1/all';
 const url2 = 'https://api.publicapis.org/entries';
 
+import { sumOfArray, findLargestElement } from './arr.js';
 // getJsonData(dinosaurs);
 
 // console.log(getUser)
@@ -56,4 +57,9 @@ let g = _.map(data, (val,key) => {
     arr.push(obj)
 })
 
-console.log(arr);
+// console.log(arr);
+
+const arr1 = [1,2,3,4,5];
+const total = sumOfArray(arr1);
+const largest = findLargestElement(arr1);
+console.log(largest);
