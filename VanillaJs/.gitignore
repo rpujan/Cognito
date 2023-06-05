@@ -155,7 +155,6 @@ $RECYCLE.BIN/
 /eImpact/.vs/config/applicationhost.config
 /.vs/config/applicationhost.config
 .vs
-.vscode
 package-lock.json
 /MVC/Alpaca.DataCenter/SchemaFiles
 ErrorLog
