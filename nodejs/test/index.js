@@ -77,6 +77,8 @@ function isPrime(num) {
     return isPrime;
 }
 
+// Problem 52
+
 function checkPer(num) {
     flag = false;
     let one = num;
@@ -94,7 +96,31 @@ function checkPer(num) {
     return flag;
 }
 
-for(let i = 1000; i < 9999; i++) {
-    if(checkPer(i))
-        console.log('Number is: ', i);
+// for(let i = 1000; i < 9999; i++) {
+//     if(checkPer(i))
+//         console.log('Number is: ', i);
+// }
+
+
+// Problem 50
+
+primeCount = 1;
+
+let num = 1;
+let sum = 0;
+let largest = 0;
+count = 0;
+while(num < 1000) {
+    if(isPrime(num)) {
+        count++;
+        // sum += num;
+        if(count > largest) {
+            // sum += num;
+            largest = count;
+            count = 0;
+        }
+    }
+
+    num++;
 }
+console.log(largest);
