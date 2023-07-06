@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ContentEditable from "react-contenteditable";
+import { getTextWidth } from 'get-text-width';
 
 const Reader = () => {
 
