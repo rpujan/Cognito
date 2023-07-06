@@ -1,9 +1,12 @@
+import Reader from './components/reader';
+import './style.css';
+
 function App() {
   return (
     <div>
-      App
+      <Reader />
     </div>
   );
-}
+};
 
 export default App;
