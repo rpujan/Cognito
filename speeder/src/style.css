@@ -1,11 +1,11 @@
 div.div__textfield {
-    -moz-appearance: textfield-multiline;
-    -webkit-appearance: textarea;
-     resize: both;
-     height: calc(100vh - 20px);
-     width: 600px;
-     margin: 0 auto;
-     box-shadow: inset 0px 1px 2px #666;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  resize: both;
+  height: calc(100vh - 20px);
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: inset 0px 1px 2px #666;
 }
 
 body, * {
@@ -14,23 +14,26 @@ body, * {
   box-sizing: border-box;
 }
 
-div[contenteditable="true"] {
-    font-family: sans-serif;    
-    height: calc(100vh - 80px);
-    overflow-y: auto;
-    width: 600px;
-    border: 1px dashed #aaa;
-    padding: 25px;
-    margin: 0 auto;
-    margin-top: 10px;
-    color: lightgray;
-  }
+.container {
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  width: 600px;
+  border: 1px dashed #aaa;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
 
-  .toolbar {
-    height: 50px;
-    width: 600px;
-    padding: 25px;
-    margin: 0 auto;
-    margin-top: 10px;
-    background: lightcyan;
-  }
+div[contenteditable="true"] {
+  font-family: sans-serif;    
+  color: lightgray;
+}
+
+.toolbar {
+  height: 50px;
+  width: 600px;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: lightcyan;
+}
